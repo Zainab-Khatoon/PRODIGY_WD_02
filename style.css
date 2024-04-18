@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.image img {
+  position: relative;
+  width: 100%;
+  height: 99.3vh;
+}
+
+.stopwatch {
+  height: 410px;
+  width: 220px;
+  top: 10%;
+  left: 25%;
+  text-align: center;
+  position: absolute;
+  border: 4px solid white;
+  border-radius: 47px;
+  background-image: url(background.jpg);
+}
+
+.span {
+  color: white;
+  font-size: 20px;
+}
+
+.display {
+  font-size: 2em;
+  margin: 106px 0;
+  color: white;
+}
+
+button {
+  margin: 8px;
+  padding: 7px 14px;
+  font-size: 1em;
+  border-radius: 13px;
+  border: none;
+  cursor: pointer;
+}
+
+.laps {
+  position: absolute;
+  top: 10%;
+  right: 30%;
+  color: white;
+}
+
